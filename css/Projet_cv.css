@@ -1,0 +1,154 @@
+body{
+    background-color: #ffffff;
+    font: 15px/18px "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
+}
+.entete{
+    color:#3593c8;
+    font-weight: bold;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    
+}
+.entete p{
+    font-size: 20px;
+}
+.separateur{
+    background-color: #3593c8;
+    height:20px;
+    width: 100%;
+}
+.profil img {
+    border-radius: 5%;
+    margin-left: -40px;
+}
+.Partie1{
+    width: 260px;
+     margin:0px;
+    float: left;
+    padding: 5px;
+}
+#numphone{
+    margin-top: -38px;
+    margin-left: 23px;
+}
+#gmail{
+    margin-top: -38px;
+    margin-left: 23px;
+}
+.rx_sociaux img{
+    width: 25px;
+    height: 25px;
+}
+.Presentation{
+    text-align: justify;
+
+}
+.Partie1, .Partie2{
+    display: inline-block;
+}
+.Partie2{
+    width: 53%;
+    background-color: #3593c8;
+    margin:0px;
+    margin-left: 8px;
+    padding: 10px;
+    padding-left: 5%;
+    text-align: justify;
+    padding-bottom: 80px;
+
+}
+.Partie3{
+    width: 250px;
+    background-color: #ffffff;
+    margin:0px;
+    float:right;
+    padding: 5px;
+
+}
+.imgexperience {
+    display: inline-block;
+}
+.exp{
+    float: right;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.Competence p{
+    font-weight: bold;
+}
+#adres{
+    font-size: 15px;
+}
+.Pieds{
+    background-color: #3593c8;
+    height:20px;
+    width: 100%;
+}
+.Ligne{
+    margin-left: 50px;
+    color: #09354e;
+    border: dashed 1px ;
+}
+.projet{
+    margin-top: -25px;
+}
+
+
+/* Sur tous types des périphériques comprises entre 481 et 1024 de largeur*/
+@media only screen and (min-width: 481px) and (max-width: 1024px)
+{
+    .Partie1{
+        width: 100%;
+        height: 100%;
+    }
+
+    .Partie2{
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+    }
+
+    .Partie3{
+        width: 100%;
+        height: 100%;
+    }
+
+    .separateur{
+        width: 100%;
+    }
+
+    .Presentation{
+        width: 100%;
+    }
+}
+
+/* Sur tous types d'écrans orientés verticalement */
+@media all and (orientation: portrait){
+    .Partie1{
+        width: 100%;
+        height: 100%;
+    }
+
+    .Partie2{
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+    }
+
+    .Partie3{
+        width: 100%;
+        height: 100%;
+    }
+
+    .separateur{
+        width: 100%;
+        height: 100%;
+    }
+
+    .Presentation{
+        width: 100%;
+    }
+}
